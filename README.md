@@ -11,7 +11,7 @@ To write a python program for creating File Transfer using TCP Sockets Links
 ### CLIENT
 ```
     import socket 
-    s = socket.socket() 
+    s = socket.socket()
     host = socket.gethostname() 
     port = 60000 
     s.connect((host, port)) 
